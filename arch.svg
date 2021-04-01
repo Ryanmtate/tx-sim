@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css"
+	height="566px" preserveAspectRatio="none" style="width:686px;height:566px;" version="1.1" viewBox="0 0 686 566"
+	width="686px" zoomAndPan="magnify">
+	<defs>
+		<filter height="300%" id="frr5nja0ks45w" width="300%" x="-1" y="-1">
+			<feGaussianBlur result="blurOut" stdDeviation="2.0" />
+			<feColorMatrix in="blurOut" result="blurOut2" type="matrix"
+				values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" />
+			<feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" />
+			<feBlend in="SourceGraphic" in2="blurOut3" mode="normal" />
+		</filter>
+	</defs>
+	<g>
+		<!--MD5=[f52a64e281e3d6636c880b1d0736b0df]
+class Accounting-->
+		<rect codeLine="1" fill="#FEFECE" filter="url(#frr5nja0ks45w)" height="240.0703" id="Accounting"
+			style="stroke:#A80036;stroke-width:1.5;" width="665" x="7" y="7" />
+		<ellipse cx="302.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;" />
+		<path
+			d="M304.5938,18.6719 C303.6563,18.2344 303.0625,18.0938 302.1875,18.0938 C299.5625,18.0938 297.5625,20.1719 297.5625,22.8906 L297.5625,24.0156 C297.5625,26.5938 299.6719,28.4844 302.5625,28.4844 C303.7813,28.4844 304.9375,28.1875 305.6875,27.6406 C306.2656,27.2344 306.5938,26.7813 306.5938,26.3906 C306.5938,25.9375 306.2031,25.5469 305.7344,25.5469 C305.5156,25.5469 305.3125,25.625 305.125,25.8125 C304.6719,26.2969 304.6719,26.2969 304.4844,26.3906 C304.0625,26.6563 303.375,26.7813 302.6094,26.7813 C300.5625,26.7813 299.2656,25.6875 299.2656,23.9844 L299.2656,22.8906 C299.2656,21.1094 300.5156,19.7969 302.25,19.7969 C302.8281,19.7969 303.4375,19.9531 303.9063,20.2031 C304.3906,20.4844 304.5625,20.7031 304.6563,21.1094 C304.7188,21.5156 304.75,21.6406 304.8906,21.7656 C305.0313,21.9063 305.2656,22.0156 305.4844,22.0156 C305.75,22.0156 306.0156,21.875 306.1875,21.6563 C306.2969,21.5 306.3281,21.3125 306.3281,20.8906 L306.3281,19.4688 C306.3281,19.0313 306.3125,18.9063 306.2188,18.75 C306.0625,18.4844 305.7813,18.3438 305.4844,18.3438 C305.1875,18.3438 304.9844,18.4375 304.7656,18.75 L304.5938,18.6719 Z "
+			fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing"
+			textLength="66" x="322.75" y="27.1543">Accounting</text>
+		<line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="671" y1="39" y2="39" />
+		<ellipse cx="18" cy="50" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;" /><text fill="#000000"
+			font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="217" x="27" y="53.2104">accounts:
+			HashMap&lt;ClientId,Account&gt;</text>
+		<ellipse cx="18" cy="62.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="236" x="27"
+			y="66.0151">transactions: HashMap&lt;TxId,Transaction&gt;</text>
+		<line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="671" y1="72.6094" y2="72.6094" />
+		<ellipse cx="18" cy="83.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="27"
+			y="86.8198">init() -&gt; Self</text>
+		<ellipse cx="18" cy="96.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="343" x="27"
+			y="99.6245">lock_account(&amp;mut self, client: ClientId, is_locked: bool) -&gt; ()</text>
+		<ellipse cx="18" cy="109.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="295" x="27"
+			y="112.4292">process_transaction(&amp;mut self, tx: Transaction) -&gt; ()</text>
+		<ellipse cx="18" cy="122.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="422" x="27"
+			y="125.2339">process_deposit(&amp;mut self, account: &amp;mut Account, tx: &amp;Transaction) -&gt; ()</text>
+		<ellipse cx="18" cy="134.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="440" x="27"
+			y="138.0386">process_withdrawal(&amp;mut self, account: &amp;mut Account, tx: &amp;Transaction) -&gt;
+			()</text>
+		<ellipse cx="18" cy="147.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="422" x="27"
+			y="150.8433">process_dispute(&amp;mut self, account: &amp;mut Account, tx: &amp;Transaction) -&gt; ()</text>
+		<ellipse cx="18" cy="160.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="423" x="27"
+			y="163.6479">process_resolve(&amp;mut self, account: &amp;mut Account, tx: &amp;Transaction) -&gt; ()</text>
+		<ellipse cx="18" cy="173.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="445" x="27"
+			y="176.4526">process_chargeback(&amp;mut self, account: &amp;mut Account, tx: &amp;Transaction) -&gt;
+			()</text>
+		<ellipse cx="18" cy="186.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="329" x="27"
+			y="189.2573">write_accounts_csv_stdout(&amp;mut self) -&gt; Result&lt;(), Error&gt;</text>
+		<ellipse cx="18" cy="198.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="560" x="27"
+			y="202.062">write_transactions_csv_file(transactions: Vec&lt;Transaction&gt;, file_path: PathBuf) -&gt;
+			Result&lt;(), Error&gt;</text>
+		<ellipse cx="18" cy="211.6563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="434" x="27"
+			y="214.8667">read_transactions_csv_file(&amp;mut self, file_path: PathBuf) -&gt; Result&lt;(),
+			Error&gt;</text>
+		<ellipse cx="18" cy="224.4609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="253" x="27"
+			y="227.6714">get_account(&amp;self, client: ClientId) -&gt; Option</text>
+		<ellipse cx="18" cy="237.2656" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="639" x="27"
+			y="240.4761">generate_dummy_transactions(num_transactions: u32, num_accounts: u16) -&gt;
+			Result&lt;Vec&lt;Transaction&gt;, Error&gt;</text>
+		<!--MD5=[4555bb1b0911a5adf28ce6dbe60fed2e]
+class Transaction-->
+		<rect codeLine="19" fill="#FEFECE" filter="url(#frr5nja0ks45w)" height="99.2188" id="Transaction"
+			style="stroke:#A80036;stroke-width:1.5;" width="149" x="385" y="434.5" />
+		<ellipse cx="421.6" cy="450.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;" />
+		<path
+			d="M423.9438,446.1719 C423.0063,445.7344 422.4125,445.5938 421.5375,445.5938 C418.9125,445.5938 416.9125,447.6719 416.9125,450.3906 L416.9125,451.5156 C416.9125,454.0938 419.0219,455.9844 421.9125,455.9844 C423.1313,455.9844 424.2875,455.6875 425.0375,455.1406 C425.6156,454.7344 425.9438,454.2813 425.9438,453.8906 C425.9438,453.4375 425.5531,453.0469 425.0844,453.0469 C424.8656,453.0469 424.6625,453.125 424.475,453.3125 C424.0219,453.7969 424.0219,453.7969 423.8344,453.8906 C423.4125,454.1563 422.725,454.2813 421.9594,454.2813 C419.9125,454.2813 418.6156,453.1875 418.6156,451.4844 L418.6156,450.3906 C418.6156,448.6094 419.8656,447.2969 421.6,447.2969 C422.1781,447.2969 422.7875,447.4531 423.2563,447.7031 C423.7406,447.9844 423.9125,448.2031 424.0063,448.6094 C424.0688,449.0156 424.1,449.1406 424.2406,449.2656 C424.3813,449.4063 424.6156,449.5156 424.8344,449.5156 C425.1,449.5156 425.3656,449.375 425.5375,449.1563 C425.6469,449 425.6781,448.8125 425.6781,448.3906 L425.6781,446.9688 C425.6781,446.5313 425.6625,446.4063 425.5688,446.25 C425.4125,445.9844 425.1313,445.8438 424.8344,445.8438 C424.5375,445.8438 424.3344,445.9375 424.1156,446.25 L423.9438,446.1719 Z "
+			fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing"
+			textLength="69" x="440.4" y="454.6543">Transaction</text>
+		<line style="stroke:#A80036;stroke-width:1.5;" x1="386" x2="533" y1="466.5" y2="466.5" />
+		<ellipse cx="396" cy="477.5" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="405"
+			y="480.7104">r#type: TxType</text>
+		<ellipse cx="396" cy="490.3047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="405"
+			y="493.5151">client: ClientId</text>
+		<ellipse cx="396" cy="503.1094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="405"
+			y="506.3198">tx: TxId</text>
+		<ellipse cx="396" cy="515.9141" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="405"
+			y="519.1245">amount: Option&lt;f64&gt;</text>
+		<line style="stroke:#A80036;stroke-width:1.5;" x1="386" x2="533" y1="525.7188" y2="525.7188" />
+		<!--MD5=[f9a29335b499db729be669fd1bd54958]
+class Account-->
+		<rect codeLine="26" fill="#FEFECE" filter="url(#frr5nja0ks45w)" height="137.6328" id="Account"
+			style="stroke:#A80036;stroke-width:1.5;" width="199" x="121" y="415" />
+		<ellipse cx="192.25" cy="431" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;" />
+		<path
+			d="M194.5938,426.6719 C193.6563,426.2344 193.0625,426.0938 192.1875,426.0938 C189.5625,426.0938 187.5625,428.1719 187.5625,430.8906 L187.5625,432.0156 C187.5625,434.5938 189.6719,436.4844 192.5625,436.4844 C193.7813,436.4844 194.9375,436.1875 195.6875,435.6406 C196.2656,435.2344 196.5938,434.7813 196.5938,434.3906 C196.5938,433.9375 196.2031,433.5469 195.7344,433.5469 C195.5156,433.5469 195.3125,433.625 195.125,433.8125 C194.6719,434.2969 194.6719,434.2969 194.4844,434.3906 C194.0625,434.6563 193.375,434.7813 192.6094,434.7813 C190.5625,434.7813 189.2656,433.6875 189.2656,431.9844 L189.2656,430.8906 C189.2656,429.1094 190.5156,427.7969 192.25,427.7969 C192.8281,427.7969 193.4375,427.9531 193.9063,428.2031 C194.3906,428.4844 194.5625,428.7031 194.6563,429.1094 C194.7188,429.5156 194.75,429.6406 194.8906,429.7656 C195.0313,429.9063 195.2656,430.0156 195.4844,430.0156 C195.75,430.0156 196.0156,429.875 196.1875,429.6563 C196.2969,429.5 196.3281,429.3125 196.3281,428.8906 L196.3281,427.4688 C196.3281,427.0313 196.3125,426.9063 196.2188,426.75 C196.0625,426.4844 195.7813,426.3438 195.4844,426.3438 C195.1875,426.3438 194.9844,426.4375 194.7656,426.75 L194.5938,426.6719 Z "
+			fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing"
+			textLength="48" x="212.75" y="435.1543">Account</text>
+		<line style="stroke:#A80036;stroke-width:1.5;" x1="122" x2="319" y1="447" y2="447" />
+		<ellipse cx="132" cy="458" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="141"
+			y="461.2104">client: ClientId</text>
+		<ellipse cx="132" cy="470.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="141"
+			y="474.0151">available: f64</text>
+		<ellipse cx="132" cy="483.6094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="141"
+			y="486.8198">held: f64</text>
+		<ellipse cx="132" cy="496.4141" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="141"
+			y="499.6245">total: f64</text>
+		<ellipse cx="132" cy="509.2188" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="141"
+			y="512.4292">locked: bool</text>
+		<line style="stroke:#A80036;stroke-width:1.5;" x1="122" x2="319" y1="519.0234" y2="519.0234" />
+		<ellipse cx="132" cy="530.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="157" x="141"
+			y="533.2339">new(client: ClientId) -&gt; Self</text>
+		<ellipse cx="132" cy="542.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;" /><text
+			fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="173" x="141"
+			y="546.0386">round_balances(mut self) -&gt; ()</text>
+		<!--MD5=[7a82625541c3ed049f958ce7e210dd46]
+class HashMap<ClientId,Account>-->
+		<rect fill="#FEFECE" filter="url(#frr5nja0ks45w)" height="48" id="HashMap&lt;ClientId,Account&gt;"
+			style="stroke:#A80036;stroke-width:1.5;" width="203" x="119" y="307" />
+		<ellipse cx="134" cy="323" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;" />
+		<path
+			d="M136.3438,318.6719 C135.4063,318.2344 134.8125,318.0938 133.9375,318.0938 C131.3125,318.0938 129.3125,320.1719 129.3125,322.8906 L129.3125,324.0156 C129.3125,326.5938 131.4219,328.4844 134.3125,328.4844 C135.5313,328.4844 136.6875,328.1875 137.4375,327.6406 C138.0156,327.2344 138.3438,326.7813 138.3438,326.3906 C138.3438,325.9375 137.9531,325.5469 137.4844,325.5469 C137.2656,325.5469 137.0625,325.625 136.875,325.8125 C136.4219,326.2969 136.4219,326.2969 136.2344,326.3906 C135.8125,326.6563 135.125,326.7813 134.3594,326.7813 C132.3125,326.7813 131.0156,325.6875 131.0156,323.9844 L131.0156,322.8906 C131.0156,321.1094 132.2656,319.7969 134,319.7969 C134.5781,319.7969 135.1875,319.9531 135.6563,320.2031 C136.1406,320.4844 136.3125,320.7031 136.4063,321.1094 C136.4688,321.5156 136.5,321.6406 136.6406,321.7656 C136.7813,321.9063 137.0156,322.0156 137.2344,322.0156 C137.5,322.0156 137.7656,321.875 137.9375,321.6563 C138.0469,321.5 138.0781,321.3125 138.0781,320.8906 L138.0781,319.4688 C138.0781,319.0313 138.0625,318.9063 137.9688,318.75 C137.8125,318.4844 137.5313,318.3438 137.2344,318.3438 C136.9375,318.3438 136.7344,318.4375 136.5156,318.75 L136.3438,318.6719 Z "
+			fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing"
+			textLength="171" x="148" y="327.1543">HashMap&lt;ClientId,Account&gt;</text>
+		<line style="stroke:#A80036;stroke-width:1.5;" x1="120" x2="321" y1="339" y2="339" />
+		<line style="stroke:#A80036;stroke-width:1.5;" x1="120" x2="321" y1="347" y2="347" />
+		<!--MD5=[098d1c8f70bfcb9974832ee9782379a2]
+class HashMap<TxId,Transaction>-->
+		<rect fill="#FEFECE" filter="url(#frr5nja0ks45w)" height="48" id="HashMap&lt;TxId,Transaction&gt;"
+			style="stroke:#A80036;stroke-width:1.5;" width="205" x="357" y="307" />
+		<ellipse cx="372" cy="323" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;" />
+		<path
+			d="M374.3438,318.6719 C373.4063,318.2344 372.8125,318.0938 371.9375,318.0938 C369.3125,318.0938 367.3125,320.1719 367.3125,322.8906 L367.3125,324.0156 C367.3125,326.5938 369.4219,328.4844 372.3125,328.4844 C373.5313,328.4844 374.6875,328.1875 375.4375,327.6406 C376.0156,327.2344 376.3438,326.7813 376.3438,326.3906 C376.3438,325.9375 375.9531,325.5469 375.4844,325.5469 C375.2656,325.5469 375.0625,325.625 374.875,325.8125 C374.4219,326.2969 374.4219,326.2969 374.2344,326.3906 C373.8125,326.6563 373.125,326.7813 372.3594,326.7813 C370.3125,326.7813 369.0156,325.6875 369.0156,323.9844 L369.0156,322.8906 C369.0156,321.1094 370.2656,319.7969 372,319.7969 C372.5781,319.7969 373.1875,319.9531 373.6563,320.2031 C374.1406,320.4844 374.3125,320.7031 374.4063,321.1094 C374.4688,321.5156 374.5,321.6406 374.6406,321.7656 C374.7813,321.9063 375.0156,322.0156 375.2344,322.0156 C375.5,322.0156 375.7656,321.875 375.9375,321.6563 C376.0469,321.5 376.0781,321.3125 376.0781,320.8906 L376.0781,319.4688 C376.0781,319.0313 376.0625,318.9063 375.9688,318.75 C375.8125,318.4844 375.5313,318.3438 375.2344,318.3438 C374.9375,318.3438 374.7344,318.4375 374.5156,318.75 L374.3438,318.6719 Z "
+			fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing"
+			textLength="173" x="386" y="327.1543">HashMap&lt;TxId,Transaction&gt;</text>
+		<line style="stroke:#A80036;stroke-width:1.5;" x1="358" x2="561" y1="339" y2="339" />
+		<line style="stroke:#A80036;stroke-width:1.5;" x1="358" x2="561" y1="347" y2="347" />
+		<!--MD5=[f52b5629e5f2224adba5b1995b50a387]
+reverse link HashMap<ClientId,Account> to Account-->
+		<path codeLine="35" d="M220.5,360.337 C220.5,375.818 220.5,395.713 220.5,414.956 " fill="none"
+			id="HashMap&lt;ClientId,Account&gt;-backto-Account" style="stroke:#A80036;stroke-width:1.0;" />
+		<polygon fill="#A80036" points="220.5,355.263,216.5,364.263,220.5,360.263,224.5,364.263,220.5,355.263"
+			style="stroke:#A80036;stroke-width:1.0;" />
+		<!--MD5=[d30aac1323f0fced279d86e1853f548f]
+reverse link Accounting to HashMap<ClientId,Account>-->
+		<path codeLine="36" d="M266.589,251.764 C254.198,272.799 242.625,292.443 234.175,306.786 " fill="none"
+			id="Accounting-backto-HashMap&lt;ClientId,Account&gt;" style="stroke:#A80036;stroke-width:1.0;" />
+		<polygon fill="#A80036"
+			points="269.245,247.256,261.2314,252.9816,266.7079,251.5645,268.125,257.041,269.245,247.256"
+			style="stroke:#A80036;stroke-width:1.0;" />
+		<!--MD5=[092f2ff4c08bb718e0414a5f0a004354]
+reverse link HashMap<TxId,Transaction> to Transaction-->
+		<path codeLine="37" d="M459.5,360.374 C459.5,381.182 459.5,409.948 459.5,434.39 " fill="none"
+			id="HashMap&lt;TxId,Transaction&gt;-backto-Transaction" style="stroke:#A80036;stroke-width:1.0;" />
+		<polygon fill="#A80036" points="459.5,355.263,455.5,364.263,459.5,360.263,463.5,364.263,459.5,355.263"
+			style="stroke:#A80036;stroke-width:1.0;" />
+		<!--MD5=[f3d4167481215ebef89b0790448b9178]
+reverse link Accounting to HashMap<TxId,Transaction>-->
+		<path codeLine="38" d="M413.023,251.764 C425.519,272.799 437.189,292.443 445.71,306.786 " fill="none"
+			id="Accounting-backto-HashMap&lt;TxId,Transaction&gt;" style="stroke:#A80036;stroke-width:1.0;" />
+		<polygon fill="#A80036"
+			points="410.345,247.256,411.5038,257.0364,412.8992,251.5544,418.3812,252.9498,410.345,247.256"
+			style="stroke:#A80036;stroke-width:1.0;" />
+		<!--MD5=[13c6d15ca15a89e9a375ddb3a221dc7f]
+@startuml
+class "Accounting" {
+    + accounts: HashMap<ClientId,Account>
+    + transactions: HashMap<TxId,Transaction>
+	+ init() -> Self
+	+ lock_account(&mut self, client: ClientId, is_locked: bool) -> ()
+	+ process_transaction(&mut self, tx: Transaction) -> ()
+	+ process_deposit(&mut self, account: &mut Account, tx: &Transaction) -> ()
+	+ process_withdrawal(&mut self, account: &mut Account, tx: &Transaction) -> ()
+	+ process_dispute(&mut self, account: &mut Account, tx: &Transaction) -> ()
+	+ process_resolve(&mut self, account: &mut Account, tx: &Transaction) -> ()
+	+ process_chargeback(&mut self, account: &mut Account, tx: &Transaction) -> ()
+	+ write_accounts_csv_stdout(&mut self) -> Result<(), Error>
+	+ write_transactions_csv_file(transactions: Vec<Transaction>, file_path: PathBuf) -> Result<(), Error>
+	+ read_transactions_csv_file(&mut self, file_path: PathBuf) -> Result<(), Error>
+	+ get_account(&self, client: ClientId) -> Option<&Account>
+	+ generate_dummy_transactions(num_transactions: u32, num_accounts: u16) -> Result<Vec<Transaction>, Error>
+}
+
+class "Transaction" {
+    + r#type: TxType
+    + client: ClientId
+    + tx: TxId
+    + amount: Option<f64>
+}
+
+class "Account" {
+    + client: ClientId
+    + available: f64
+    + held: f64
+    + total: f64
+    + locked: bool
+	+ new(client: ClientId) -> Self
+	+ round_balances(mut self) -> ()
+}
+"HashMap<ClientId,Account>" <- - "Account"
+"Accounting" <- - "HashMap<ClientId,Account>"
+"HashMap<TxId,Transaction>" <- - "Transaction"
+"Accounting" <- - "HashMap<TxId,Transaction>"
+@enduml
+
+PlantUML version 1.2021.4beta3(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+	</g>
+</svg>
